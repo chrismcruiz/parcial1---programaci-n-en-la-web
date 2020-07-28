@@ -21,19 +21,19 @@ td, tr, th {
     text-align: center;
     background-color: #E6E6FA;
 }
+
+.edit-button {
+    color: blue;
+}
 .form2 {
     font-size: 2em;
-    background-color: #fff;
+    color: #31A1FF;
+    background-color: #EEEEEE;
     text-align: center;
 }
 .theadf2 {
     background-color: #FCBB00;
     color: black;
-}
-
-.tbodyf2 {
-    color: #31A1FF;
-    background-color: #EEEEEE;
 }
 
 .cetiqueta {
