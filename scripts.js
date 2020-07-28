@@ -9,6 +9,7 @@ for (i in botones_editar) {
 
 function editarItem() {
     if (editando == false) {
+        this.classList.add('editando');
         editando = true;
         var td = this.parentNode;
         var tr = td.parentNode;

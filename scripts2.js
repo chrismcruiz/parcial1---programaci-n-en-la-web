@@ -33,25 +33,26 @@ if (calidad == 'bien') {
             '<thead class="theadf2">' +
                 '<tr>' +
                     '<th><span class="feliz">&#128578</span></th>' +
-                    '<th><div class="alimento">' + alimento + '</div><span class="alimento_titulo"> Alimento </span></th>'+ 
+                    '<th><div class="alimento">' + alimento + '</div>' +
+                    '<span class="alimento_titulo"> Alimento </span></th>'+ 
                 '</tr>' +
             '</thead>' +
             '<tbody class="tbodyf2">' +
                 '<tr>' +
-                    '<td>Calorias (Kcal)</td>' +
-                    '<td>' +calorias+'</td>' +
+                    '<td>Calorías (Kcal)</td>' +
+                    '<td><div class="cetiqueta">' +calorias+'</div></td>' +
                 '</tr>' +
                 '<tr>' +
                     '<td>Grasas (g)</td>' +
-                    '<td>' +grasas+'</td>' +
+                    '<td><div class="getiqueta">' +grasas+'</div></td>' +
                 '</tr>' +
                 '<tr>' +
-                    '<td>Proteina (g)</td>' +
-                    '<td>' +proteina+'</td>' +
+                    '<td>Proteína (g)</td>' +
+                    '<td><div class="petiqueta">' +proteina+'</div></td>' +
                 '</tr>' +
                 '<tr>' +
                     '<td>Carbohidratos (g)</td>' +
-                    '<td>' +carbohidratos+'</td>' +
+                    '<td><div class="carbetiqueta">' +carbohidratos+'</div></td>' +
                 '</tr>' +
             '</tbody>' +
         '</table>';
@@ -59,31 +60,32 @@ if (calidad == 'bien') {
 
 if (calidad == 'mal') {
     contenedorForm2.innerHTML =
-    '<table class="form2>' +
-        '<thead class="theadf2">' +
-            '<tr>' +
-                '<th><span class="triste">&#128577</span></th>' +
-                '<th><div class="alimento">' + alimento + '</div><span class="alimento_titulo"> Alimento </span></th>'+ 
-            '</tr>' +
-        '</thead>' +
-    '<tbody class="tbodyf2">' +
-        '<tr>' +
-            '<td>Calorias (Kcal)</td>' +
-            '<td>' +calorias+'</td>' +
-        '</tr>' +
-        '<tr>' +
-            '<td>Grasas (g)</td>' +
-            '<td>' +grasas+'</td>' +
-        '</tr>' +
-        '<tr>' +
-            '<td>Proteina (g)</td>' +
-            '<td>' +proteina+'</td>' +
-        '</tr>' +
-        '<tr>' +
-            '<td>Carbohidratos (g)</td>' +
-            '<td>' +carbohidratos+'</td>' +
-        '</tr>' +
-    '</tbody>' +
-'</table>';
+    '<table class="form2">' +
+            '<thead class="theadf2">' +
+                '<tr>' +
+                    '<th><span class="feliz">&#128577</span></th>' +
+                    '<th><div class="alimento">' + alimento + '</div>' +
+                    '<span class="alimento_titulo"> Alimento </span></th>'+ 
+                '</tr>' +
+            '</thead>' +
+            '<tbody class="tbodyf2">' +
+                '<tr>' +
+                    '<td>Calorías (Kcal)</td>' +
+                    '<td><div class="cetiqueta">' +calorias+'</div></td>' +
+                '</tr>' +
+                '<tr>' +
+                    '<td>Grasas (g)</td>' +
+                    '<td><div class="getiqueta">' +grasas+'</div></td>' +
+                '</tr>' +
+                '<tr>' +
+                    '<td>Proteína (g)</td>' +
+                    '<td><div class="petiqueta">' +proteina+'</div></td>' +
+                '</tr>' +
+                '<tr>' +
+                    '<td>Carbohidratos (g)</td>' +
+                    '<td><div class="carbetiqueta">' +carbohidratos+'</div></td>' +
+                '</tr>' +
+            '</tbody>' +
+        '</table>';
 }
 

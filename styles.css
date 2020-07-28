@@ -1,38 +1,97 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #5D5D5D;
+}
 .disabled {
     display: none;
 }
 
-/* table {
-    background-color: red;
-} */
-
+td, tr, th {
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
 .theadf1 {
-    background-color: grey;
+    background-color: #5A5958;
+    color: white;
+    padding: 50px;
+}
+.form1 {
+    text-align: center;
+    background-color: #E6E6FA;
+}
+.form2 {
+    font-size: 2em;
+    background-color: #fff;
+    text-align: center;
+}
+.theadf2 {
+    background-color: #FCBB00;
+    color: black;
+}
+
+.tbodyf2 {
+    color: #31A1FF;
+    background-color: #EEEEEE;
+}
+
+.cetiqueta {
+    background-color: #0000CD;
+    border-radius: 10px;
+    width: 80px;
+    margin: 0 auto;
     color: white;
 }
 
-.theadf2 {
-    background-color: #DAA520;
+.getiqueta {
+    background-color: #01A0AD;
+    border-radius: 10px;
+    width: 80px;
+    margin: 0 auto;
+    color: white;
 }
-
-tbody{
-    background-color: purple;
-    color: grey;
+.petiqueta {
+    background-color: #22A952;
+    border-radius: 10px;
+    width: 80px;
+    margin: 0 auto;
+    color: white;
 }
-
-tfoot {
-    color: grey;
-}
-
-.superior {
-    border: 1px solid red;
-    width: 300px;
+.carbetiqueta {
+    background-color: #D12807;
+    border-radius: 10px;
+    width: 80px;
+    margin: 0 auto;
+    color: white;
 }
 .feliz, .triste {
     font-size: 100px;
 }
-.edit-button {
 
-    
+.alimento {
+    font-size: 1.1em;
 }
+
+input, select {
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    padding: 5px;
+}
+.submit_button, .reset_button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid #1E90FF;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    color: #1E90FF;
+    background-color: white;
+    transition: transform 0.2s;
+    top: 30px;
+    margin-bottom: 10px;
+ }
+ 
+ .submit_button:active {
+    transform: scale(0.9);
+ }
 
