@@ -1,0 +1,38 @@
+.disabled {
+    display: none;
+}
+
+/* table {
+    background-color: red;
+} */
+
+.theadf1 {
+    background-color: grey;
+    color: white;
+}
+
+.theadf2 {
+    background-color: #DAA520;
+}
+
+tbody{
+    background-color: purple;
+    color: grey;
+}
+
+tfoot {
+    color: grey;
+}
+
+.superior {
+    border: 1px solid red;
+    width: 300px;
+}
+.feliz, .triste {
+    font-size: 100px;
+}
+.edit-button {
+
+    
+}
+
